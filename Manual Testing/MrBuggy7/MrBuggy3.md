@@ -3,24 +3,26 @@
 Mr Buggy is a family of applications and specifications shared for the purpose of testing education.
 
 All of them served as tasks during subsequent editions of TestingCup - Championship in Software Testing. Each version of Mr Buggy has been tested by more than 500 testers. This makes them one of the best tested documents and applications ever!
+Here are some examples of bugs I found:
 
 **Task 1**
 
 *Znajdź i zgłoś defekt w standardowej funkcji aplikacji służącej zakładaniu konta użytkownika w aplikacji internetowej. Pola oznaczone gwiazdką są wymagane. Zgodnie z wymaganiami klienta pola Imię i Nazwisko mogą przyjmować dowolne znaki. Bazuj na swojej wiedzy odnośnie tego, jak taka aplikacja powinna funkcjonować. Nie szukaj defektów użyteczności.*
 
-![](photo)
+![](Images/bug1.png)
 
 **Task 2**
 
 *Zadanie przedstawia uproszczony sklep z listą produktów możliwych do zakupu oraz koszykiem zawierającym wybrane przez użytkownika produkty. Pola oznaczone gwiazdką są wymagane. Funkcja "Usuń" w koszyku, usuwa wszystkie oznaczone produkty. Funkcja "Zamów" symuluje dokończenie procesu zakupowego. Znajdź i zgłoś defekt.  Nie szukaj defektów użyteczności.*
 
-![](photo)
+![](Images/bug2a.png)
+![](Images/bug2.png)
 
 **Task 3**
 
 *Znajdź i zgłoś defekt w standardowej funkcji aplikacji służącej zakładaniu konta użytkownika w aplikacji internetowej. Pola oznaczone gwiazdką są wymagane. Zgodnie z wymaganiami klienta pola Imię i Nazwisko mogą przyjmować dowolne znaki. Bazuj na swojej wiedzy odnośnie tego, jak taka aplikacja powinna funkcjonować. Nie szukaj defektów użyteczności.*
 
-![](photo)
+![](Images/bug3.png)
 
 **Task 6**
 
@@ -39,10 +41,12 @@ Przykładowe niepoprawne numery rachunków:
 5) 99102024846666135640364345. 
 Pola oznaczone gwiazdką są wymagane. Rozłożenie pól i przycisków jest zgodne z wymaganiami klienta.*
 
-![](photo)
+![](Images/bug6.png)
+![](Images/bug6a.png)
 
 **Task 11**
 
 *Zadanie przedstawia funkcje tworzenia listy produktów z realnymi cenami wraz z naliczonym podatkiem VAT. Dostępne funkcje mają działać zgodnie z funkcjonalnością Windows 7 i 8. Wszystkie ceny i wartości podawane są w polskich złotych (PLN). Pola oznaczone gwiazdką są wymagane. Odszukaj i zgłoś defekt.*
  
-![](photo)
+![](Images/bug11.png)
+![](Images/bug11a.png)
