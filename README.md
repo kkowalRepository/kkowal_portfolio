@@ -7,11 +7,15 @@
  #### Coding projects
  
  ##### Swift - Xcode playground
- - Investing calculator
+ - Class Exercise
+ - For Loop Excercise
  - Tamagotchi app
  - Temperature check
- - first time
  ##### Java
+ - Class Exercise
+ - For Loop Excercise
+ - Tamagotchi app
+ - Temperature check
  
  <img src="images/AutomationPracticeKanbanBrd.png">
  
