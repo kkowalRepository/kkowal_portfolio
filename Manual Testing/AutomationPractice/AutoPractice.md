@@ -1,6 +1,6 @@
 ### Automation Practice 
 
-This is a manual test of a website: http://automationpractice.com/index.php which is commonly used for finding bugs. For this task I used my macBook pro 15'' with macOS Mojave 10.14.6 operating system, inetrenet connection and Safari browser (Version 13.1.1 (14609.2.9.1.3))
+This is a manual test of a website: http://automationpractice.com/index.php which is commonly used for finding bugs. For this task I used my macBook pro 15'' with macOS Mojave 10.14.6 operating system, inetrnet connection and Safari browser (Version 13.1.1 (14609.2.9.1.3))
 
 First, after reviewing the website, it's present functionality I came up with some user stories both form the customer and the site owner standpiont. Here are some examples:
 
