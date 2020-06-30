@@ -5,10 +5,8 @@
  #### Coding projects
  
  ##### Swift - Xcode playground
- - Class Exercise
- - For Loop Excercise
+ - [Class Exercise](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Xcode%20playground/classExercise.md)
  - [Tamagotchi app](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Xcode%20playground/tamagotchi.md)
- - Temperature check
  ##### Java
  - [Xmas Tree](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Java/JavaExercises.md)
  - [Temperature Converter](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Java/JavaExercises.md)
