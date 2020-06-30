@@ -17,9 +17,9 @@ Example 1 - owner standpoint
 >- seller can add a product description up to 1000 characters. 
 >- seller can save a product asa a draft (visible in Drafts tab)
 >- seller can publish a product on his own board
-
+>
 > ** Additional questions for the client regarding the user story: **
-
+>
 > - how will the men’s section be accessible?
 > - will the men’s section have the same filter sections?
 > - what kind of categories will the men’s section allow/include?
