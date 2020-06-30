@@ -60,4 +60,5 @@ public class XmasTree {
 ```
 
 And here's how it turned out:
+
 ![](images/xmasTree.png)
