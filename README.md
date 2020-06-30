@@ -13,7 +13,7 @@
  
  #### Software testing
  - Manual testing
-   - Automation Practice website
+   - [Automation Practice website](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/AutomationPractice/AutoPractice.md)
  - Automated testing
    -BDD+Selenium
  
