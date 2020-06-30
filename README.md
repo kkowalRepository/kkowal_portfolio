@@ -7,7 +7,7 @@
  ##### Swift - Xcode playground
  - Class Exercise
  - For Loop Excercise
- - Tamagotchi app
+ - [Tamagotchi app](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Xcode%20playground/tamagotchi.md)
  - Temperature check
  ##### Java
  - Xmas Tree
