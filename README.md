@@ -1,6 +1,13 @@
 # kkowal_portfolio
-## sub heading
- Konrad Kowal Portfolio includes coding and testing examples. Coding includes simple exercises done in in Swift and Java while learning to code, testing includes some examples of the stuff I did during my SDA Software tester course.
+<!--## sub heading-->
+ This is my personal portfolio. It includes coding and testing examples. Coding includes simple exercises done in Xcode and Java. Testing includes both manual and automation  examples of the projects I did during my SDA "Software tester" course in 2020.
+ 
+ #### Software testing
+ 
+ #### Coding projects
+ 
+ ![](images/AutomationPracticeKanbanBrd)
+ 
 
 - first time
 - second time
