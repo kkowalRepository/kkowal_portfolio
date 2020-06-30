@@ -7,18 +7,18 @@ First, after reviewing the website, it's present functionality I came up with so
 Example 1 - owner standpoint
 > ** Title: ** adding men’s section to online store
  
-> ** As a seller **
+> **As a seller**
 > I want to add a MEN section to my online store
 > So that it’s visible for the customer
 > 
-> ** Acceptance Criteria ** :
+> **Acceptance Criteria** :
 >- MEN section as a button is visible for the customer
 >- seller can add products, pictures for men’s section
 >- seller can add a product description up to 1000 characters. 
 >- seller can save a product asa a draft (visible in Drafts tab)
 >- seller can publish a product on his own board
 >
-> ** Additional questions for the client regarding the user story: **
+> **Additional questions for the client regarding the user story:**
 >
 > - how will the men’s section be accessible?
 > - will the men’s section have the same filter sections?
@@ -27,14 +27,14 @@ Example 1 - owner standpoint
 
 Example 2 - user standpoint
 
-> ** Title: ** different language version
+> **Title:** different language version
 
-> ** As a user **
+> **As a user**
 from Poland I want to have possibility to click change language button in visible place on 
 http://automationpractice.com/index.php?fbclid=IwAR1vM_qxj7nI_P4H0kLFNQJ5n95-GMdMa63qLk73uTpAAJjOSR-pq9EZ6q0 webpage
 So that it helps me to understand the content
 > 
-> ** Acceptance Criteria :**
+> **Acceptance Criteria :**
 >
 > - avaiable button to change language fot the user
 > - page designer has a possibility to locate the button on the webpage
