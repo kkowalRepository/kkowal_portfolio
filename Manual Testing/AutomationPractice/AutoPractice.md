@@ -10,13 +10,13 @@ Example 1 - owner standpoint
 > ** As a seller **
 > I want to add a MEN section to my online store
 > So that it’s visible for the customer
- 
+> 
 > ** Acceptance Criteria ** :
-- MEN section as a button is visible for the customer
-- seller can add products, pictures for men’s section
-- seller can add a product description up to 1000 characters. 
-- seller can save a product asa a draft (visible in Drafts tab)
-- seller can publish a product on his own board
+>- MEN section as a button is visible for the customer
+>- seller can add products, pictures for men’s section
+>- seller can add a product description up to 1000 characters. 
+>- seller can save a product asa a draft (visible in Drafts tab)
+>- seller can publish a product on his own board
 
 > ** Additional questions for the client regarding the user story: **
 
@@ -33,9 +33,9 @@ Example 2 - user standpoint
 from Poland I want to have possibility to click change language button in visible place on 
 http://automationpractice.com/index.php?fbclid=IwAR1vM_qxj7nI_P4H0kLFNQJ5n95-GMdMa63qLk73uTpAAJjOSR-pq9EZ6q0 webpage
 So that it helps me to understand the content
- 
+> 
 > ** Acceptance Criteria :**
-
+>
 > - avaiable button to change language fot the user
 > - page designer has a possibility to locate the button on the webpage
 > - after clicking the button, the language on the website will change
