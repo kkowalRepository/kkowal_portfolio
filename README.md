@@ -6,9 +6,15 @@
  
  #### Coding projects
  
- ![](images/AutomationPracticeKanbanBrd)
+ ##### Swift - Xcode playground
+ - Investing calculator
+ - Tamagotchi app
+ - Temperature check
+ - first time
+ ##### Java
  
-
+ <img src="images/AutomationPracticeKanbanBrd.png">
+ 
 - first time
 - second time
 - third time
