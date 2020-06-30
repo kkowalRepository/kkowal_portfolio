@@ -49,7 +49,7 @@ Bug 1 - Filtering
 > - click any filter in filter section f.e.: SIZE or COLOR
 > - BUG: website freezes(showing “loading…”) while trying to filter garment sizes in WOMEN section. Screenshot below:
 
- ![](insert photo)
+ ![](images/APbug1.png)
  
 Bug 2 - Registration - Password input
 
@@ -61,7 +61,7 @@ Bug 2 - Registration - Password input
 > - click “ Sign In” 
 > - BUG: Password form takes every password input as correct. Screenshot below:
 
- ![](insert photo)
+ ![](images/APbug2.png)
  
  Bug 3 - Registration - Date of Birth
  
@@ -73,7 +73,7 @@ Bug 2 - Registration - Password input
  > - set the date of birth to 31-february 
  > - BUG: possibility to set February 31 as a date of birth. Screenshot below:
  
-  ![](insert photo)
+  ![](images/APbug3.png)
  
  Bug 4 - Form not working
  
@@ -83,7 +83,9 @@ Bug 2 - Registration - Password input
  > - click the form and try to type anything
  > - BUG: it does not allow to type anything. Screenshot below:
  
-  ![](insert photo)
+  ![](images/APbug4.png)
   
    After finding mamny more bugs I reported them into Jira and put them into backlog.
+   
+   ![](images/APjiraboard.png)
  
