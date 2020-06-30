@@ -14,7 +14,7 @@
  #### Software testing
  - Manual testing
    - [Automation Practice website](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/AutomationPractice/AutoPractice.md)
-   - Mr Buggy 3
+   - [Mr Buggy 3](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/MrBuggy7/MrBuggy3.md)
  - Automated testing
    -BDD+Selenium
  
