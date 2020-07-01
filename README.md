@@ -7,7 +7,7 @@
    - [Automation Practice website](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/AutomationPractice/AutoPractice.md)
    - [Mr Buggy 3](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/MrBuggy3/MrBuggy3.md)
  - Automated testing
-   -BDD+Selenium
+   - [Automation Practice - BDD,Selenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/BDD.md)
  
  #### Coding projects
  
