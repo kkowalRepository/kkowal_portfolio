@@ -150,3 +150,5 @@ To validate weather test was successful I used the `if` statement. In case test 
 
 ```
 So this the result I got:
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/images/APloginTest.png)
