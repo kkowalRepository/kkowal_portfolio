@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/Features",
         glue = "StepDefinitions",
-        tags = {"@"}
+        tags = {"@correctDataHeroku"}
 )
-public class Login_TestRunner {
+
+public class Heroku_TestRunner {
 }

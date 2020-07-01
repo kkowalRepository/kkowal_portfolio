@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/Features",
         glue = "StepDefinitions",
-        tags = {"@"}
+        tags = {"@contextMenuTest"}
 )
-public class Login_TestRunner {
+public class TestRunner {
 }
