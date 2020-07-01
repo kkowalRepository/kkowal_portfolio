@@ -1,8 +1,9 @@
 Feature: Login test
 
-  As a user I want to check if it's possible to login
-  to an account at : http://automationpractice.com/index.php
-  without registering first.
+  As a user I want to log into my account at : http://automationpractice.com/index.php
+  My email address: testes@wp.pl
+  My password: ttttt
+
 
 
   @scenarioOne
@@ -11,11 +12,10 @@ Feature: Login test
     And internet connection
     And user goes to the website: "http://automationpractice.com/index.php"
     And user clicks "Sign in" button in the top right corner
-    When user types email address <email> in field <fieldId> in "Already registered?" form
+    When user types email address <email> in field <loginId> in "Already registered?" form
     And user types password <password> in field <passField> in "Already registered?" form
-    And uzytkownik w pole <poleHaslo> wpisuje wartosc <password>
-    And uzytkownik klika przycisk "login"
-    Then uzytkownik poprawnie loguje sie do systemu
+    And user clicks "Sign in" button
+    Then user is registered
     Examples:
-      | email                | password        | fieldId | passField |
-      | test@poczta.onet.pl  | Tester123       | email   | pass      |
+      | email                | password        | loginId | passField |
+      | testes@wp.pl         | ttttt           | email   | pass      |

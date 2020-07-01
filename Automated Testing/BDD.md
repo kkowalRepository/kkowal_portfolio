@@ -1,3 +1,66 @@
+# BDD - Automation Practice
+
+
+This is a BDD (Behaviour Driven Development) automated test of a website: http://automationpractice.com/index.php. It's purpouse is to check existing functionality of logging into customer's account given the account was praviousely set.
+Basic steps to check this feature are:
+ 
+>- go to a website : http://automationpractice.com/index.php
+>- click “ Sign In”
+>- go to login form 
+>- enter e-mail address: testes@wp.pl
+>- enter password: ttttt
+>- validate weather the test was successful
+>- close the browser
+ 
+ 
+ So, first I launched IntelliJ IDEA and started a new Maven project. After loading Junit, Selenium and Cucumber as dependencies to my `pom.xml` I created three files: `Login_TestRunner, Login.feature` and `LoginSteps`. Then I set up all those files with code.
+ 
+#### Login_testRunner
+
+```
+package CucumberOptions;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        features = "src/test/java/Features",
+        glue = "StepDefinitions"
+)
+public class Login_TestRunner {
+}
+
+```
+#### Login.feature
+
+```
+Feature: Login test
+
+  As a user I want to log into my account at : http://automationpractice.com/index.php
+  My email address: testes@wp.pl
+  My password: ttttt
+
+  @scenarioOne
+  Scenario Outline: login process to http://automationpractice.com/index.php
+  
+    Given open browser
+    And internet connection
+    And user goes to the website: "http://automationpractice.com/index.php"
+    And user clicks "Sign in" button in the top right corner
+    When user types email address <email> in field <loginId> in "Already registered?" form
+    And user types password <password> in field <passField> in "Already registered?" form
+    And user clicks "Sign in" button
+    Then user is registered
+    Examples:
+      | email                | password        | loginId | passField |
+      | testes@wp.pl         | ttttt           | email   | pass      |
+```
+
+#### LoginSteps
+
+```
 package StepDefinitions;
 
 import cucumber.api.java.en.And;
@@ -59,13 +122,20 @@ public class LoginSteps {
         signInBtn.click();
         Thread.sleep(1000);
     }
+    }
+```
+
+To validate weather test was successful I used the `if` statement. In case test is successful the console will return `test passed` else `Test failed`.
+    
+    
+```
+    
 
     @Then("^user is registered$")
     public void user_is_registered()  {
 
         String pageURL = driver.getCurrentUrl();
 
-// Validate Current Page URL
         if(pageURL.equals("http://automationpractice.com/index.php?controller=my-account"))
         {
             System.out.println("Test Passed.");
@@ -77,5 +147,6 @@ public class LoginSteps {
         driver.quit();
     }
 
-}
 
+```
+So this the result I got:
