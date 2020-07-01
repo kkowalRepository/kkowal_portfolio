@@ -125,7 +125,7 @@ public class LoginSteps {
     }
 ```
 
-To validate weather test was successful I used the `if` statement. In case test is successful the console will return `test passed` else `Test failed`.
+To validate weather test was successful I used the `if` statement. In case test is successful the console will return `Test passed` else `Test failed`.
     
     
 ```
