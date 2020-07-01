@@ -1,7 +1,7 @@
 # BDD - Automation Practice
 
 
-This is a BDD (Behaviour Driven Development) automated test of a website: http://automationpractice.com/index.php. It's purpouse is to check existing functionality of logging into customer's account given the account was praviousely set.
+This is a BDD (Behaviour Driven Development) automated test of a website: http://automationpractice.com/index.php. It's purpose is to check existing functionality of logging into customer's account given the account was praviousely set.
 Basic steps to check this feature are:
  
 >- go to a website : http://automationpractice.com/index.php
@@ -9,7 +9,7 @@ Basic steps to check this feature are:
 >- go to login form 
 >- enter e-mail address: testes@wp.pl
 >- enter password: ttttt
->- validate weather the test was successful
+>- validate weather the test was successful( so the user could successfully log in)
 >- close the browser
  
  
