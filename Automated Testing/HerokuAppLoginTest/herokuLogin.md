@@ -191,7 +191,9 @@ Scenario one: @correctDataHeroku
 So this the result I got:
 
 Scenario one:
+
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/images/scenario1.png)
 
 Scenario two:
+
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/images/scenario2.png)
