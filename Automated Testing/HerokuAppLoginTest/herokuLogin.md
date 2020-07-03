@@ -1,7 +1,7 @@
 # Heroku App - Login functionality test
 
 
-http://the-internet.herokuapp.com is a test automastion practice website with many examples to explore. For this task I chose the login page test. This is where user can acces secure area aftre logging in. I created two scenarios for coccrect and incorrect entries. So the basic steps to get there are:
+http://the-internet.herokuapp.com is a test automastion practice website with many examples to explore. For this task I chose the Form Authentication test. This is where user can acces secure area aftre logging in. I created two scenarios for coccrect and incorrect entries. So the basic steps to get there are:
 
 Scenario one: @correctDataHeroku 
 >- go to a website : http://http://the-internet.herokuapp.com/login
