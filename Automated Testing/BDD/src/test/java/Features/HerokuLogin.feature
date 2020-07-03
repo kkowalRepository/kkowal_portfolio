@@ -15,7 +15,7 @@ Feature: Login Page test
 
   @incorrectDataHeroku
   Scenario: unsuccessful login
-    Given user is on page : http://the-internet.herokuapp.com/login
+    Given user is on login page
     When user inputs the incorrect login
     And user inputs the incorrect password
     And user1 clicks "Login" button

@@ -20,13 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d0479c-b223-41e8-b8f8-c9a81ca4a3cf" name="Default Changelist" comment="AP_project v1.1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/Heroku_TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/HerokuLogin.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/HerokuSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/Login_TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/Login_TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/Heroku_TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/Login_TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/HerokuLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/HerokuLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/HerokuSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/HerokuSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberOptions/Login_TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberOptions/Login_TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberOptions/Heroku_TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberOptions/Login_TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/HerokuSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/HerokuSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/LoginSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager" selected="JUnit.Heroku_TestRunner">
+  <component name="RunManager" selected="JUnit.Login_TestRunner">
     <configuration name="Scenario: login process to http://automationpractice.com/index.php" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Login.feature" />
@@ -104,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login_TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.kkowalPRTFL" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +115,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CucumberOptions" />
-      <option name="MAIN_CLASS_NAME" value="CucumberOptions.Login_TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.TestRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Heroku_TestRunner" />
         <item itemvalue="JUnit.Login_TestRunner" />
+        <item itemvalue="JUnit.Heroku_TestRunner" />
         <item itemvalue="JUnit.testRunnerOne" />
         <item itemvalue="Cucumber Java.Scenario: login process to http://automationpractice.com/index.php" />
         <item itemvalue="JUnit.All in com.kkowalPRTFL" />
@@ -199,12 +201,13 @@
       <screen x="0" y="23" width="2516" height="1057" />
     </state>
     <state x="353" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2516.1057@0.23.2516.1057" timestamp="1593581729059" />
-    <state width="1539" height="286" key="GridCell.Tab.0.bottom" timestamp="1593602170204">
-      <screen x="0" y="23" width="2518" height="1057" />
+    <state width="1445" height="156" key="GridCell.Tab.0.bottom" timestamp="1593766139269">
+      <screen x="0" y="23" width="2517" height="1057" />
     </state>
     <state width="1088" height="364" key="GridCell.Tab.0.bottom/0.23.2513.1057@0.23.2513.1057" timestamp="1593598597442" />
-    <state width="1539" height="204" key="GridCell.Tab.0.bottom/0.23.2516.1057@0.23.2516.1057" timestamp="1593594816270" />
-    <state width="1409" height="364" key="GridCell.Tab.0.bottom/0.23.2517.1057@0.23.2517.1057" timestamp="1593599882550" />
+    <state width="1445" height="156" key="GridCell.Tab.0.bottom/0.23.2515.1057@0.23.2515.1057" timestamp="1593765377762" />
+    <state width="1445" height="156" key="GridCell.Tab.0.bottom/0.23.2516.1057@0.23.2516.1057" timestamp="1593765849732" />
+    <state width="1445" height="156" key="GridCell.Tab.0.bottom/0.23.2517.1057@0.23.2517.1057" timestamp="1593766139269" />
     <state width="1539" height="286" key="GridCell.Tab.0.bottom/0.23.2518.1057@0.23.2518.1057" timestamp="1593602170204" />
     <state width="1539" height="204" key="GridCell.Tab.0.bottom/0.23.2519.1057@0.23.2519.1057" timestamp="1593595069543" />
     <state width="1072" height="204" key="GridCell.Tab.0.bottom/0.23.2520.1057@0.23.2520.1057" timestamp="1593596831039" />
@@ -212,12 +215,13 @@
     <state width="1539" height="357" key="GridCell.Tab.0.bottom/0.23.2522.1057@0.23.2522.1057" timestamp="1593591366842" />
     <state width="1539" height="170" key="GridCell.Tab.0.bottom/0.23.2523.1057@0.23.2523.1057" timestamp="1593591528820" />
     <state width="1539" height="170" key="GridCell.Tab.0.bottom/0.23.2524.1057@0.23.2524.1057" timestamp="1593591608213" />
-    <state width="1539" height="286" key="GridCell.Tab.0.center" timestamp="1593602170204">
-      <screen x="0" y="23" width="2518" height="1057" />
+    <state width="1445" height="156" key="GridCell.Tab.0.center" timestamp="1593766139268">
+      <screen x="0" y="23" width="2517" height="1057" />
     </state>
     <state width="1088" height="364" key="GridCell.Tab.0.center/0.23.2513.1057@0.23.2513.1057" timestamp="1593598597441" />
-    <state width="1539" height="204" key="GridCell.Tab.0.center/0.23.2516.1057@0.23.2516.1057" timestamp="1593594816269" />
-    <state width="1409" height="364" key="GridCell.Tab.0.center/0.23.2517.1057@0.23.2517.1057" timestamp="1593599882549" />
+    <state width="1445" height="156" key="GridCell.Tab.0.center/0.23.2515.1057@0.23.2515.1057" timestamp="1593765377761" />
+    <state width="1445" height="156" key="GridCell.Tab.0.center/0.23.2516.1057@0.23.2516.1057" timestamp="1593765849732" />
+    <state width="1445" height="156" key="GridCell.Tab.0.center/0.23.2517.1057@0.23.2517.1057" timestamp="1593766139268" />
     <state width="1539" height="286" key="GridCell.Tab.0.center/0.23.2518.1057@0.23.2518.1057" timestamp="1593602170204" />
     <state width="1539" height="204" key="GridCell.Tab.0.center/0.23.2519.1057@0.23.2519.1057" timestamp="1593595069542" />
     <state width="1072" height="204" key="GridCell.Tab.0.center/0.23.2520.1057@0.23.2520.1057" timestamp="1593596831039" />
@@ -225,12 +229,13 @@
     <state width="1539" height="357" key="GridCell.Tab.0.center/0.23.2522.1057@0.23.2522.1057" timestamp="1593591366841" />
     <state width="1539" height="170" key="GridCell.Tab.0.center/0.23.2523.1057@0.23.2523.1057" timestamp="1593591528819" />
     <state width="1539" height="170" key="GridCell.Tab.0.center/0.23.2524.1057@0.23.2524.1057" timestamp="1593591608212" />
-    <state width="1539" height="286" key="GridCell.Tab.0.left" timestamp="1593602170203">
-      <screen x="0" y="23" width="2518" height="1057" />
+    <state width="1445" height="156" key="GridCell.Tab.0.left" timestamp="1593766139268">
+      <screen x="0" y="23" width="2517" height="1057" />
     </state>
     <state width="1088" height="364" key="GridCell.Tab.0.left/0.23.2513.1057@0.23.2513.1057" timestamp="1593598597441" />
-    <state width="1539" height="204" key="GridCell.Tab.0.left/0.23.2516.1057@0.23.2516.1057" timestamp="1593594816269" />
-    <state width="1409" height="364" key="GridCell.Tab.0.left/0.23.2517.1057@0.23.2517.1057" timestamp="1593599882549" />
+    <state width="1445" height="156" key="GridCell.Tab.0.left/0.23.2515.1057@0.23.2515.1057" timestamp="1593765377761" />
+    <state width="1445" height="156" key="GridCell.Tab.0.left/0.23.2516.1057@0.23.2516.1057" timestamp="1593765849731" />
+    <state width="1445" height="156" key="GridCell.Tab.0.left/0.23.2517.1057@0.23.2517.1057" timestamp="1593766139268" />
     <state width="1539" height="286" key="GridCell.Tab.0.left/0.23.2518.1057@0.23.2518.1057" timestamp="1593602170203" />
     <state width="1539" height="204" key="GridCell.Tab.0.left/0.23.2519.1057@0.23.2519.1057" timestamp="1593595069542" />
     <state width="1072" height="204" key="GridCell.Tab.0.left/0.23.2520.1057@0.23.2520.1057" timestamp="1593596831038" />
@@ -238,12 +243,13 @@
     <state width="1539" height="357" key="GridCell.Tab.0.left/0.23.2522.1057@0.23.2522.1057" timestamp="1593591366841" />
     <state width="1539" height="170" key="GridCell.Tab.0.left/0.23.2523.1057@0.23.2523.1057" timestamp="1593591528819" />
     <state width="1539" height="170" key="GridCell.Tab.0.left/0.23.2524.1057@0.23.2524.1057" timestamp="1593591608211" />
-    <state width="1539" height="286" key="GridCell.Tab.0.right" timestamp="1593602170204">
-      <screen x="0" y="23" width="2518" height="1057" />
+    <state width="1445" height="156" key="GridCell.Tab.0.right" timestamp="1593766139269">
+      <screen x="0" y="23" width="2517" height="1057" />
     </state>
     <state width="1088" height="364" key="GridCell.Tab.0.right/0.23.2513.1057@0.23.2513.1057" timestamp="1593598597442" />
-    <state width="1539" height="204" key="GridCell.Tab.0.right/0.23.2516.1057@0.23.2516.1057" timestamp="1593594816269" />
-    <state width="1409" height="364" key="GridCell.Tab.0.right/0.23.2517.1057@0.23.2517.1057" timestamp="1593599882549" />
+    <state width="1445" height="156" key="GridCell.Tab.0.right/0.23.2515.1057@0.23.2515.1057" timestamp="1593765377762" />
+    <state width="1445" height="156" key="GridCell.Tab.0.right/0.23.2516.1057@0.23.2516.1057" timestamp="1593765849732" />
+    <state width="1445" height="156" key="GridCell.Tab.0.right/0.23.2517.1057@0.23.2517.1057" timestamp="1593766139269" />
     <state width="1539" height="286" key="GridCell.Tab.0.right/0.23.2518.1057@0.23.2518.1057" timestamp="1593602170204" />
     <state width="1539" height="204" key="GridCell.Tab.0.right/0.23.2519.1057@0.23.2519.1057" timestamp="1593595069543" />
     <state width="1072" height="204" key="GridCell.Tab.0.right/0.23.2520.1057@0.23.2520.1057" timestamp="1593596831039" />
@@ -280,9 +286,10 @@
     </state>
     <state x="1364" y="463" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2513.1057@0.23.2513.1057" timestamp="1593598521546" />
     <state x="1366" y="463" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2517.1057@0.23.2517.1057" timestamp="1593583633209" />
-    <state x="1399" y="64" width="982" height="939" key="dock-window-1" timestamp="1593602886703">
-      <screen x="0" y="23" width="2518" height="1057" />
+    <state x="1518" y="131" width="981" height="939" key="dock-window-1" timestamp="1593765180522">
+      <screen x="0" y="23" width="2515" height="1057" />
     </state>
+    <state x="1518" y="131" width="981" height="939" key="dock-window-1/0.23.2515.1057@0.23.2515.1057" timestamp="1593765180522" />
     <state x="1399" y="64" width="982" height="939" key="dock-window-1/0.23.2518.1057@0.23.2518.1057" timestamp="1593602886703" />
     <state x="209" y="167" key="new project wizard" timestamp="1593602513673">
       <screen x="0" y="23" width="2518" height="1057" />
