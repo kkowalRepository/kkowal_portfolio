@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d0479c-b223-41e8-b8f8-c9a81ca4a3cf" name="Default Changelist" comment="AP_project v1.1">
+      <change afterPath="$PROJECT_DIR$/../HerokuAppLoginTest/herokuLogin.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/Heroku_TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/Login_TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/HerokuLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/HerokuLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/HerokuSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/HerokuSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberOptions/Heroku_TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberOptions/Login_TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/HerokuSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/HerokuSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/LoginSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
