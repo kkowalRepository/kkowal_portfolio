@@ -9,6 +9,7 @@
  - Automated testing
    - [Automation Practice](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/BDD.md)
    - [Heroku App login test](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/herokuLogin.md)
+   - [Heroku App context menu test](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppContextMenuTest/herokuContextMenu.md)
    
  
  #### Coding projects
