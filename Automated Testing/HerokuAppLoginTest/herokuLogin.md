@@ -158,7 +158,7 @@ WebDriver driver;
 }
 ```
 
-To validate weather test was successful I used the `if` statement. In case test is successful the console will return `Test passed` else `Test failed`.
+To validate weather test was successful I used the `if` statement. In case of successful scenario one the console will return `user logged in`. In case of successful scenario two the console will return `test passed, user is not logged in`.
     
     
 ```
