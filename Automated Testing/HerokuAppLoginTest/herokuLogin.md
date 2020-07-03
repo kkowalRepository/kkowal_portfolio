@@ -1,21 +1,30 @@
-# BDD - Automation Practice
+# Heroku App - Login functionality test
 
 
-This is a BDD (Behaviour Driven Development) automated test of a website: http://automationpractice.com/index.php. It's purpose is to check existing functionality of logging into customer's account given the account was praviousely set.
-Basic steps to check this feature are:
- 
->- go to a website : http://automationpractice.com/index.php
->- click “ Sign In”
->- go to login form 
->- enter e-mail address: testes@wp.pl
->- enter password: ttttt
+http://the-internet.herokuapp.com is a test automastion practice website with many examples to explore. For this task I chose the login page test. This is where user can acces secure area aftre logging in. I created two scenarios for coccrect and incorrect entries. So the basic steps to get there are:
+
+Scenario one: @correctDataHeroku 
+>- go to a website : http://http://the-internet.herokuapp.com/login
+>- enter correct username: tomsmith
+>- enter correct password: SuperSecretPassword!
+>- clikc login
+>- user is logged into a secure area
 >- validate weather the test was successful( so the user could successfully log in)
 >- close the browser
+
+Scenario two:  @incorrectDataHeroku
+>- go to a website : http://http://the-internet.herokuapp.com/login
+>- enter incorrect username: someLogin
+>- enter incorrect password: randomPassword
+>- clikc login
+>- user is not logged into a secure area
+>- validate weather the test was successful( so the user could successfully log in)
+>- close the browser
+
+  
+ So, first I launched IntelliJ IDEA and started a new Maven project. After loading Junit, Selenium and Cucumber as dependencies to my `pom.xml` I created three files: `TestRunner, HerokuLogin.feature` and `HerokuSteps`. Then I set up all those files with code.
  
- 
- So, first I launched IntelliJ IDEA and started a new Maven project. After loading Junit, Selenium and Cucumber as dependencies to my `pom.xml` I created three files: `Login_TestRunner, Login.feature` and `LoginSteps`. Then I set up all those files with code.
- 
-#### Login_testRunner
+#### TestRunner
 
 ```
 package CucumberOptions;
@@ -27,42 +36,46 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/Features",
-        glue = "StepDefinitions"
+        glue = "StepDefinitions",
+        tags = {"@incorrectDataHeroku"}
 )
-public class Login_TestRunner {
+public class TestRunner {
 }
 
 ```
-#### Login.feature
+#### HerokuLogin.feature
 
 ```
-Feature: Login test
+Feature: Login Page test
+  As a user I want to check weather I can log into http://the-internet.herokuapp.com/login
+  website with a given login and password.
+  Login: tomsmith
+  Password: SuperSecretPassword!
 
-  As a user I want to log into my account at : http://automationpractice.com/index.php
-  My email address: testes@wp.pl
-  My password: ttttt
+  @correctDataHeroku
+  Scenario: successful login
+    Given user is on login page
+    When user inputs the correct login
+    And user inputs the correct password
+    And user1 clicks "Login" button
+    Then user is logged in
 
-  @scenarioOne
-  Scenario Outline: login process to http://automationpractice.com/index.php
-  
-    Given open browser
-    And internet connection
-    And user goes to the website: "http://automationpractice.com/index.php"
-    And user clicks "Sign in" button in the top right corner
-    When user types email address <email> in field <loginId> in "Already registered?" form
-    And user types password <password> in field <passField> in "Already registered?" form
-    And user clicks "Sign in" button
-    Then user is registered
-    Examples:
-      | email                | password        | loginId | passField |
-      | testes@wp.pl         | ttttt           | email   | pass      |
+
+  @incorrectDataHeroku
+  Scenario: unsuccessful login
+    Given user is on login page
+    When user inputs the incorrect login
+    And user inputs the incorrect password
+    And user1 clicks "Login" button
+    Then user is not logged in
 ```
 
-#### LoginSteps
+#### HerokuSteps
 
 ```
 package StepDefinitions;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLPortType;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -73,82 +86,112 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LoginSteps {
+import java.awt.event.MouseEvent;
+import java.sql.Driver;
 
-    WebDriver driver;
+public class HerokuSteps {
 
-    @Given("^open browser$")
-    public void open_browser() {
+WebDriver driver;
+
+    @Given("^user is on login page$")
+    public void user_is_on_login_page() {
         System.setProperty("webdriver.chrome.driver",
                 "/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Automated Testing/chromedriver");
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
-
+        driver.get("http://the-internet.herokuapp.com/login");
+        System.out.println("User is on login page");
     }
 
-    @Given("^internet connection$")
-    public void internet_connection()  {
+    @When("^user inputs the correct login$")
+    public void user_inputs_the_correct_login()  {
+        WebElement login = driver.findElement(By.name("username"));
+        login.sendKeys("tomsmith");
     }
 
-    @Given("^user goes to the website: \"([^\"]*)\"$")
-    public void user_goes_to_the_website(String arg1) {
-        driver.get("http://automationpractice.com/index.php");
-        driver.getCurrentUrl();
-
+    @Then("^user is logged in$")
+    public void user_is_logged_in() {
+        String pageUrl = driver.getCurrentUrl();
+        if(pageUrl.equals("http://the-internet.herokuapp.com/secure")) {
+            System.out.println(" user logged in");
+        }
+        else{
+            System.out.println("user didn't log in");
+        }
     }
 
-    @And("^user clicks \"([^\"]*)\" button in the top right corner$")
-    public void user_clicks_button_in_the_top_right_corner(String arg1) throws InterruptedException {
-        WebElement signIn = driver.findElement(By.className("login"));
-        signIn.click();
-        Thread.sleep(1000);
+    @And("^user inputs the correct password$")
+    public void user_inputs_the_correct_password() {
+        WebElement pass = driver.findElement(By.name("password"));
+        pass.sendKeys("SuperSecretPassword!");
     }
 
-    @When("^user types email address testes@wp\\.pl in field email in \"([^\"]*)\" form$")
-    public void user_types_email_address_testes_wp_pl_in_field_email_in_form(String arg1) {
-        WebElement emailInput = driver.findElement(By.id("email"));
-        emailInput.sendKeys("testes@wp.pl");
+    @And("^user1 clicks \"([^\"]*)\" button$")
+    public void user1_clicks_something_button(String strArg1) {
+        WebElement loginBtn = driver.findElement(By.className("radius"));
+        loginBtn.click();
     }
 
-    @When("^user types password ttttt in field pass in \"([^\"]*)\" form$")
-    public void user_types_password_ttttt_in_field_pass_in_form(String arg1)  {
-        WebElement passInput = driver.findElement(By.id("passwd"));
-        passInput.sendKeys("ttttt");
+    @When("^user inputs the incorrect login$")
+    public void user_inputs_the_incorrect_login() {
+        WebElement login = driver.findElement(By.name("username"));
+        login.sendKeys("someLogin");
     }
 
-    @When("^user clicks \"([^\"]*)\" button$")
-    public void user_clicks_button(String arg1) throws InterruptedException {
-        WebElement signInBtn = driver.findElement(By.id("SubmitLogin"));
-        signInBtn.click();
-        Thread.sleep(1000);
+    @And("^user inputs the incorrect password$")
+    public void user_inputs_the_incorrect_password() {
+        WebElement pass = driver.findElement(By.name("password"));
+        pass.sendKeys("randomPassword");
     }
+    @Then("^user is not logged in$")
+    public void user_is_not_logged_in() {
+        String pageUrl = driver.getCurrentUrl();
+        if(pageUrl.equals("http://the-internet.herokuapp.com/secure")){
+            System.out.println("test failed, user logged in");
+        }
+        else
+        {
+            System.out.println("test passed, user is not logged in");
+        }
     }
+
+}
 ```
 
 To validate weather test was successful I used the `if` statement. In case test is successful the console will return `Test passed` else `Test failed`.
     
     
 ```
-    
-
-    @Then("^user is registered$")
-    public void user_is_registered()  {
-
-        String pageURL = driver.getCurrentUrl();
-
-        if(pageURL.equals("http://automationpractice.com/index.php?controller=my-account"))
-        {
-            System.out.println("Test Passed.");
+Scenario two:  @incorrectDataHeroku     
+    @Then("^user is not logged in$")
+    public void user_is_not_logged_in() {
+        String pageUrl = driver.getCurrentUrl();
+        if(pageUrl.equals("http://the-internet.herokuapp.com/secure")){
+            System.out.println("test failed, user logged in");
         }
         else
         {
-            System.out.println("Test 3 Failed.");
+            System.out.println("test passed, user is not logged in");
         }
-        driver.quit();
     }
-
+    
+Scenario one: @correctDataHeroku   
+    @Then("^user is logged in$")
+    public void user_is_logged_in() {
+        String pageUrl = driver.getCurrentUrl();
+        if(pageUrl.equals("http://the-internet.herokuapp.com/secure")) {
+            System.out.println(" user logged in");
+        }
+        else{
+            System.out.println("user didn't log in");
+        }
+        }
 
 ```
 So this the result I got:
 
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/images/APloginTest.png)
+Scenario one:
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/images/scenario1.png)
+
+Scenario two:
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/images/scenario2.png)
