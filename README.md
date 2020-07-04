@@ -8,8 +8,9 @@
    - [Mr Buggy 3](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/MrBuggy3/MrBuggy3.md)
  - Automated testing
    - [Automation Practice](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/BDD.md)
-   - [Heroku App login test](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/herokuLogin.md)
-   - [Heroku App context menu test](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppContextMenuTest/herokuContextMenu.md)
+   - [Heroku App login test - Selenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/herokuLogin.md)
+   - [Heroku App login test - Selenium IDE](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/herokuLoginSeleniumIDE.md)
+   - [Heroku App context menu test - Aelenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppContextMenuTest/herokuContextMenu.md)
    
  
  #### Coding projects
