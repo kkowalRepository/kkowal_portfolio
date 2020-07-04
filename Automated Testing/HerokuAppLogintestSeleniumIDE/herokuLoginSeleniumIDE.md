@@ -27,10 +27,27 @@ Scenario two:  @incorrectDataHeroku
  
  ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/images/loginTestStep1.png)
  
- I entered correct username : tomsmith and password: SuperSecretPassword!. After clicking login button I was transfered to a secure area form which I successfulley logged out. Hera are test results:
+ I entered correct username : tomsmith and password: SuperSecretPassword!. After clicking login button I was transfered to a secure area form which I successfulley logged out. Here are test results:
  
  ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/images/loginTestStep2.png)
  
+ 
+ ##### Scenario two
+ 
+  For the second test case I entered incorrect username : someLogin and password: randomPassword. 
+  
+  ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/images/scenario2%20step1.png)
+ 
+  After clicking login button I wasn't transfered to a secure area. Here are test results:
+  
+  ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/images/scenario2%20step2.png)
+  
+  Test results:
+  
+  ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/images/scenarioTwoResults.png)
+ 
+ 
+ And here's a video of a scenario one  :
  
  ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/images/herokuAppLoginTest%20SeleniumIDE480p.mov)
  
