@@ -7,7 +7,7 @@ Scenario one: @correctDataHeroku
 >- go to a website : http://http://the-internet.herokuapp.com/login
 >- enter correct username: tomsmith
 >- enter correct password: SuperSecretPassword!
->- clikc login
+>- click login
 >- user is logged into a secure area
 >- validate weather the test was successful( so the user could successfully log in)
 >- close the browser
@@ -16,7 +16,7 @@ Scenario two:  @incorrectDataHeroku
 >- go to a website : http://http://the-internet.herokuapp.com/login
 >- enter incorrect username: someLogin
 >- enter incorrect password: randomPassword
->- clikc login
+>- click login
 >- user is not logged into a secure area
 >- validate weather the test was successful( so the user could successfully log in)
 >- close the browser

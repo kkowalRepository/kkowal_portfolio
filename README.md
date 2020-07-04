@@ -10,7 +10,7 @@
    - [Automation Practice](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/BDD.md)
    - [Heroku App login test - Selenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/herokuLogin.md)
    - [Heroku App login test - Selenium IDE](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/herokuLoginSeleniumIDE.md)
-   - [Heroku App context menu test - Aelenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppContextMenuTest/herokuContextMenu.md)
+   - [Heroku App context menu test - Selenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppContextMenuTest/herokuContextMenu.md)
    
  
  #### Coding projects
