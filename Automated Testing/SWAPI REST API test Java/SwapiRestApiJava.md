@@ -89,5 +89,44 @@ All tests passed. See the screenshot below:
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test%20Java/images/restApiTestJava.png)
 
+Now let's check some more information, for example Luke Skywalker's height. Using examples above I came up with this code:
+```
+@Test
+    public void checkLuke(){
+        Response response = given()
+                .when()
+                .get("https://swapi.dev/api/people/")
+                .then()
+                .statusCode(200)
+                .extract()
+                .response();
+        JsonPath json = response.jsonPath();
+        List<String> height = json.getList("results.height");
+        Assertions.assertThat((height).contains("172"));
+        System.out.println("Luke's height is 172");
+```
 
+Console response is:
 
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test%20Java/images/lukeHeight.png)
+
+And for last let's check if Darth Vader is in the database:
+```
+@Test
+    public void darkCharacter() {
+        Response response = given()
+                .when()
+                .get("https://swapi.dev/api/people/")
+                .then()
+                .statusCode(200)
+                .extract()
+                .response();
+        JsonPath json = response.jsonPath();
+        List<String> name = json.getList("results.name");
+        Assertions.assertThat(name).contains("Darth Vader");
+        System.out.println("Darth Vader is in the database");
+``` 
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test%20Java/images/darthTest.png)
+
+And, as expected Darth Vader exists in the database
