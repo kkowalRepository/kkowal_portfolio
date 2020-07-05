@@ -1,7 +1,7 @@
 # The Star Wars API test - Java
 
 
-The Star Wars API test but this time using Java and IntelliJ IDEA. I used the Rest Assured library which is dedicated to write Rest Api tests. Tests will include three sections: 
+This is the same test as [Star Wars API](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test/SwapiRestApi.md) but this time using Java and IntelliJ IDEA. I used the Rest Assured library which is dedicated to write Rest Api tests in Java. Tests will include three sections: 
 
 - given (set configuration),
 - when (send http request),
