@@ -1,4 +1,4 @@
-# SWAPI REST API test - Postman
+# The Star Wars API test - Postman
 
 
 The Star Wars API, or "swapi" (Swah-pee) is the world's first quantified and programmatically-accessible data source for all the data from the Star Wars canon universe!
