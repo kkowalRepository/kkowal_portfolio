@@ -18,16 +18,26 @@ Ipad)
     
 Parameter values, select freely, remember that they must be numeric values ​​in the appropriate format
 
-1. Ping
+#### Preconditions:
+- access to internet connection, 
+- Google Chrome web browser Version 83.0.4103.116 (Official Build) (64-bit)
+- macOS Mojave Version 10.14.6
 
-The successful response has a few notable elements:
+#### Tests:
+
+- Ping
+
+> The successful response has a few notable elements:
 - repeating lines showing that bytes were sent, and the time the trip took (in milliseconds (ms)).
 - statistics that the packets transmitted were also received, with minimal to no packet loss
 
-My results were:
+> My results were:
 
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/PKPWebSiteTest/images/pingTest.png)
+> ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/PKPWebSiteTest/images/pingTest.png)
 
+- Check responsiveness of the website www.pkp.pl
+
+> test
 
 
 
