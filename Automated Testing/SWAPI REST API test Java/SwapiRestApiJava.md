@@ -93,22 +93,24 @@ Now let's check some more information, for example Luke Skywalker's height. Usin
 ```
 @Test
     public void checkLuke(){
-        Response response = given()
+        given()
                 .when()
-                .get("https://swapi.dev/api/people/")
+                .get("https://swapi.dev/api/people/1/")
                 .then()
                 .statusCode(200)
-                .extract()
-                .response();
-        JsonPath json = response.jsonPath();
-        List<String> height = json.getList("results.height");
-        Assertions.assertThat((height).contains("172"));
+                .body("height", Matchers.equalTo("170"));
+
         System.out.println("Luke's height is 172");
+    }
 ```
 
 Console response is:
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test%20Java/images/lukeHeight.png)
+
+Now let's see if I enter a different value, e.g. `170`, will the request work?
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test%20Java/images/lukeFailTest.png)
 
 And for last let's check if Darth Vader is in the database:
 ```
