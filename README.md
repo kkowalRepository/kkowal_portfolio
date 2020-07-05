@@ -11,6 +11,7 @@
    - [Heroku App login test - Selenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/herokuLogin.md)
    - [Heroku App login test - Selenium IDE](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/herokuLoginSeleniumIDE.md)
    - [Heroku App context menu test - Selenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppContextMenuTest/herokuContextMenu.md)
+   - [The Star Wars REST API test - Postman](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test/SwapiRestApi.md)
    
  
  #### Coding projects
