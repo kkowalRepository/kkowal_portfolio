@@ -26,6 +26,7 @@ The successful response has a few notable elements:
 
 My results were:
 
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/PKPWebSiteTest/images/pingTest.png)
 
 
 
