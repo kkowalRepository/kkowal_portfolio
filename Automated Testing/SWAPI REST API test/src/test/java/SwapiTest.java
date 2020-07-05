@@ -40,6 +40,34 @@ public class SwapiTest {
 
     }
     @Test
+    public void checkLuke(){
+        Response response = given()
+                .when()
+                .get("https://swapi.dev/api/people/")
+                .then()
+                .statusCode(200)
+                .extract()
+                .response();
+        JsonPath json = response.jsonPath();
+        List<String> height = json.getList("results.height");
+        Assertions.assertThat((height).contains("172"));
+        System.out.println("Luke's height is 172");
+    }
+    @Test
+    public void darkCharacter() {
+        Response response = given()
+                .when()
+                .get("https://swapi.dev/api/people/")
+                .then()
+                .statusCode(200)
+                .extract()
+                .response();
+        JsonPath json = response.jsonPath();
+        List<String> name = json.getList("results.name");
+        Assertions.assertThat(name).contains("Darth Vader");
+        System.out.println("Darth Vader is in the database");
+    }
+    @Test
     public void genderCheck() {
 
 // creating local variable
