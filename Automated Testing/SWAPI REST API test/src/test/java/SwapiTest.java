@@ -41,16 +41,13 @@ public class SwapiTest {
     }
     @Test
     public void checkLuke(){
-        Response response = given()
+        given()
                 .when()
-                .get("https://swapi.dev/api/people/")
+                .get("https://swapi.dev/api/people/1/")
                 .then()
                 .statusCode(200)
-                .extract()
-                .response();
-        JsonPath json = response.jsonPath();
-        List<String> height = json.getList("results.height");
-        Assertions.assertThat((height).contains("172"));
+                .body("height", Matchers.equalTo("170"));
+
         System.out.println("Luke's height is 172");
     }
     @Test
