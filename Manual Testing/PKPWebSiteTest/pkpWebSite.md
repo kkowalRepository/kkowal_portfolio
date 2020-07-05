@@ -28,11 +28,11 @@ Parameter values, select freely, remember that they must be numeric values â€‹â€
 - Ping
 
 > The successful response has a few notable elements:
-- repeating lines showing that bytes were sent, and the time the trip took (in milliseconds (ms)).
-- statistics that the packets transmitted were also received, with minimal to no packet loss
-
+> - repeating lines showing that bytes were sent, and the time the trip took (in milliseconds (ms)).
+> - statistics that the packets transmitted were also received, with minimal to no packet loss
+>
 > My results were:
-
+>
 > ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/PKPWebSiteTest/images/pingTest.png)
 
 - Check responsiveness of the website www.pkp.pl
