@@ -1,48 +1,93 @@
-# The Star Wars API test - Postman
+# The Star Wars API test - Java
 
 
-The Star Wars API, or "swapi" (Swah-pee) is the world's first quantified and programmatically-accessible data source for all the data from the Star Wars canon universe!
+The Star Wars API test but this time using Java and IntelliJ IDEA. I used the Rest Assured library which is dedicated to write Rest Api tests. Tests will include three sections: 
 
-All the rich contextual stuff from the universe was taken and formatted into something easier to consume with software. It can all be accessed thanks to the API, Teh Star Wars API.
-I focused on characters that starred in the movies so I launched Postaman to start writinig my requests and tests.
+- given (set configuration),
+- when (send http request),
+- then (set assertions).
 
-Basic Api request is `https://swapi.dev/api/people/`
+So I launched a Maven project in IntelliJ and started adding libraries:
 
-I go the count of 82, the number of charascters on first page is 10 and there are three types of gender listed: male, female and n/a (in case of robots). So I wrote a couple of tests to check it.
+- Rest Assured
+- JUnit
+- Hamcrest
+- AssertJ
 
-##### Test 1 Status code is 200
+##### Test 1 Status code is 200 for teh basic API request
+
 ```
-pm.test("Status code is 200", function () {
-    pm.response.to.have.status(200);
- });
+    @Test
+    public void checkStatus(){
+//  check status for the body of a response of a basic request
+        given()
+                .when()
+                .get("https://swapi.dev/api/")
+                .then()
+                .statusCode(200)
+                .body("people", Matchers.equalTo("http://swapi.dev/api/people/"))
+                .body("planets", Matchers.equalTo("http://swapi.dev/api/planets/"))
+                .body("films", Matchers.equalTo("http://swapi.dev/api/films/"))
+                .body("species", Matchers.equalTo("http://swapi.dev/api/species/"))
+                .body("vehicles", Matchers.equalTo("http://swapi.dev/api/vehicles/"))
+                .body("starships", Matchers.equalTo("http://swapi.dev/api/starships/"));
+    }
 ```
-##### Test 2 Total number of characters is correct
+##### Test 2 Read one person (id1) and check if it's Luke Skywalker
 ```
-let people = json.results;
-pm.test("Total number of characters is correct", function () {
-    pm.expect(json.count).is.eql(82);
-});
+@Test
+    public void readOnePerson() {
+        given()
+                .when()
+// send http request
+                .get("https://swapi.dev/api/people/1/")
+                .then()
+// check for status 200
+                .statusCode(200)
+// check if person id=1 is Luke Skywalker
+                .body("name", Matchers.equalTo("Luke Skywalker"));
+
+    }
 ```
-##### Test 3 Number of characters on fisrt page is correct
+##### Test 3 Total number of characters is correct
 ```
-let people = json.results;
-pm.test("Number of characters on fisrt page is correct", function (){
-    pm.expect(people.length).is.eql(10);
-});
+@Test
+    public void getAllPeople() {
+        given()
+                .when()
+                .get("https://swapi.dev/api/people/")
+                .then()
+                .statusCode(200)
+//  check the count of all characters
+                .body("count", Matchers.equalTo(82));
+    }
 ```
 ##### Test 4 Gender is on male or female or n/a
 ```
-let person = pm.response.json();
-let people = json.results;
-pm.test("Gender is on male or female or n/a", function() {
-    _.each(people, function(person){
-        pm.expect(person.gender).to.be.oneOf(['male', 'female', 'n/a']);
-    })
-});
-```
-So far all tests passed. See the Postman screenshot below:
+  @Test
+    public void genderCheck() {
 
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test/images/peopleTest1.png)
+// creating local variable
+        Response response = given()
+                .when()
+                .get("https://swapi.dev/api/people/")
+                .then()
+                .statusCode(200)
+                .body("count", Matchers.equalTo(82))
+//  extract info form response within all characters on gender
+                .extract()
+                .response();
+// turn response to JsonPath
+        JsonPath json = response.jsonPath();
+// get list with gender names
+        List<String> gender = json.getList("results.gender");
+// assertJ assertion to check if gender field contains gender names
+        Assertions.assertThat(gender).containsOnly("male", "female", "n/a");
+    }
+```
+All tests passed. See the screenshot below:
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test%20Java/images/restApiTestJava.png)
 
 
 
