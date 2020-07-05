@@ -112,7 +112,7 @@ Now let's see if I enter a different value, e.g. `170`, will the request work?
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/SWAPI%20REST%20API%20test%20Java/images/lukeFailTest.png)
 
-And for last let's check if Darth Vader is in the database:
+No, it didn't, assertion's expected value was `170` but the actual was `172`. And for last let's check if Darth Vader is in the database:
 ```
 @Test
     public void darkCharacter() {
