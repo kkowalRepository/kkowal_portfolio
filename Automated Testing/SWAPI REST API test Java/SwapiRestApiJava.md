@@ -98,7 +98,7 @@ Now let's check some more information, for example Luke Skywalker's height. Usin
                 .get("https://swapi.dev/api/people/1/")
                 .then()
                 .statusCode(200)
-                .body("height", Matchers.equalTo("170"));
+                .body("height", Matchers.equalTo("172"));
 
         System.out.println("Luke's height is 172");
     }
