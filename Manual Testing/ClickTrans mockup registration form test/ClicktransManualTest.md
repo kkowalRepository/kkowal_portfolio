@@ -9,7 +9,7 @@ So I started an exploratory session of a given website to find some interesting 
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/png/TClist.png)
 
-For individual test cases with description click [here](enter address)
+For individual test cases with description click [here](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/CTtestcases.md)
 
 After preparing all the test cases I started Test Runs.
 
@@ -24,6 +24,7 @@ Test Run - R2
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/png/R2.png)
 
-Based on the test results I prepared bug reports. Here's the list of bugs found
+Based on the test results I prepared bug reports. Here's the list of bugs found:
+
 
 
