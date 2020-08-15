@@ -1,6 +1,5 @@
 package StepDefinitions;
 
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -10,10 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
 
-public class LoginSteps {
+public class RegistrationSteps {
 
     WebDriver driver;
 
@@ -30,6 +27,7 @@ public class LoginSteps {
     @Given("^User enters a given website \"([^\"]*)\"$")
     public void user_enters_a_given_website(String arg1)  {
         driver.get("https://dev-1.clicktrans.pl/register-test/courier");
+        Assert.assertEquals("https://dev-1.clicktrans.pl/register-test/courier", driver.getCurrentUrl());
         System.out.println("User entered a given login website");
 
     }
@@ -41,17 +39,18 @@ public class LoginSteps {
         System.out.println("User entered valid company name");
     }
 
-    @Then("^User is logged in$")
-    public void user_is_logged_in()  {
+    @Then("^User is registered$")
+    public void user_is_registered()  {
         WebElement textSuccess = driver.findElement(By.xpath("/html/body/div[6]/div"));
-        String elementText = textSuccess.getText();
-        if(elementText.equals("OK - some registration logic is mocked")) {
-            System.out.println("User is logged in");
-        }
-        else {
-            System.out.println("User is not logged in");
-        }
+        Assert.assertEquals("OK - some registration logic is mocked", textSuccess.getText());
+        System.out.println("User is registered");
+    }
 
+    @Then("^User is not registered$")
+    public void user_is_not_registered() {
+        WebElement textFail = driver.findElement(By.xpath("/html/body/div[6]/div"));
+        Assert.assertEquals("Error", textFail.getText());
+        System.out.println("User is not registered");
     }
 
 
@@ -61,6 +60,15 @@ public class LoginSteps {
                 .findElement(By.xpath("//*[@id=\"user_register_email\"]"));
         inputEmail.sendKeys("test@wp.pl");
         System.out.println("User entered valid email address");
+    }
+
+    @When("^User enters incorrect Email$")
+    public void user_enters_incorrect_Email()  {
+        WebElement inputBadEmail = driver
+                .findElement(By.xpath("//*[@id=\"user_register_email\"]"));
+        inputBadEmail.sendKeys("testwp.pl");
+        System.out.println("User entered valid email address");
+
     }
 
     @When("^User enters correct ImieINazwisko$")

@@ -7,8 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/Features",
-        glue = "StepDefinitions"
+        glue = "StepDefinitions",
+        tags = {"@incorrectRegistration"}
 )
 
-public class TestRunner {
+public class TestRunner_incorrect {
 }
