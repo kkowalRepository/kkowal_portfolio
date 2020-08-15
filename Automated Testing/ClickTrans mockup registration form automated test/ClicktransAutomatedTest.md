@@ -257,6 +257,27 @@ public class RegistrationSteps {
 
 ```
 
+Another imprtant part was to check that form was sent correctly with an assert on the message “OK - some registration logic is mocked”. To acheive that I performed an assertion:
+
+Correct registration
+
+```
+public void user_is_registered()  {
+        WebElement textSuccess = driver.findElement(By.xpath("/html/body/div[6]/div"));
+        Assert.assertEquals("OK - some registration logic is mocked", textSuccess.getText());
+        System.out.println("User is registered");
+    }
+```
+Incorrect registration
+
+```
+public void user_is_not_registered() {
+        WebElement textFail = driver.findElement(By.xpath("/html/body/div[6]/div"));
+        Assert.assertEquals("Error", textFail.getText());
+        System.out.println("User is not registered");
+    }
+```
+
 So this the result I got for the Scenario 1:
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/ClickTrans%20mockup%20registration%20form%20automated%20test/testResults/testCorrect.png)
