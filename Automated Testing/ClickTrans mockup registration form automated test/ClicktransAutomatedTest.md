@@ -7,7 +7,7 @@ So, first I launched IntelliJ IDEA and started a new Maven project. After loadin
 #### TestRunner_correct
 
 ```
-ppackage CucumberOptions;
+package CucumberOptions;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -27,7 +27,7 @@ public class TestRunner {
 #### TestRunner_incorrect
 
 ```
-ppackage CucumberOptions;
+package CucumberOptions;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
