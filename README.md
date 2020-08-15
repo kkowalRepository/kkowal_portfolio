@@ -8,6 +8,7 @@
    - [Automation Practice website](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/AutomationPractice/AutoPractice.md)
    - [Mr Buggy 3](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/MrBuggy3/MrBuggy3.md)
  - Automated testing
+   - [ClickTrans Registration Form - Selenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/ClickTrans%20mockup%20registration%20form%20automated%20test/ClicktransAutomatedTest.md)
    - [Automation Practice](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/BDD.md)
    - [Heroku App login test - Selenium WebDriver](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLoginTest/herokuLogin.md)
    - [Heroku App login test - Selenium IDE](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Automated%20Testing/HerokuAppLogintestSeleniumIDE/herokuLoginSeleniumIDE.md)
