@@ -12,12 +12,30 @@ For individual test cases within this category click [here](https://github.com/k
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory1.png)
 
-
+#### "Pełna nazwa firmy" field
+For individual test cases within this category click [here](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/testCases/nazwaFirmy/companyName.md)
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory2.png)
+
+#### "E-mail" field
+For individual test cases within this category click [here](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/testCases/email/email.md)
+
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory3.png)
+
+#### "Imię i nazwisko" field" field
+For individual test cases within this category click [here](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/testCases/firstLastName/firstLastName.md)
+
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory4.png)
+
+#### "Telefon" field
+For individual test cases within this category click [here](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/testCases/phone/phone.md)
+
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory5.png)
+
+
+
+
+
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory6.png)
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory7.png)
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory8.png)
