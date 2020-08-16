@@ -20,16 +20,10 @@ For individual test cases with description click [here](https://github.com/kkowa
 
 After preparing all the test cases I started Test Runs.
 
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/png/TRlist.png)
-
-Test Run - R1
-
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/png/R1.png)
 
+For individual Test Runs click [here](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TestRuns/TestRuns.md)
 
-Test Run - R2
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/png/R2.png)
 
 Based on the test results I prepared bug reports. For that I used Jira Software. Here are all the bugs found:
 
@@ -47,3 +41,21 @@ Based on the test results I prepared bug reports. For that I used Jira Software.
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug7.png)
 
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug8.png)
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug9.png)
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug10.png)
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug11.png)
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug12.png)
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug13.png)
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug14.png)
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug15.png)
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug16.png)
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug17.png)
