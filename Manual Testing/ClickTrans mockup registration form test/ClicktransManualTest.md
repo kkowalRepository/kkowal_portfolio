@@ -5,9 +5,16 @@ This is what the mockup registration form looks like:
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/png/regForm.png)
 
-So I started an exploratory session of a given website to find some interesting test cases. I divided them into two categories: Correct registration (how to register correctly) and Registration form (all the potential issues). Then I performed tests and then reported bugs I found. For creating test cases I used TestRail tool. Here is a list of them:
+So I started an exploratory session of a given website to find some interesting test cases. I divided them into a couple of categories. Then I performed tests and then reported bugs I found. For creating test cases I used TestRail tool. Here is a list of test cases divided into categories:
 
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/png/TClist.png)
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory1.png)
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory2.png)
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory3.png)
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory4.png)
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory5.png)
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory6.png)
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory7.png)
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory8.png)
 
 For individual test cases with description click [here](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/CTtestcases.md)
 
