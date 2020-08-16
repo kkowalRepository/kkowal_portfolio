@@ -42,7 +42,8 @@ For individual test cases within this category click [here](https://github.com/k
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory7.png)
 
-
+#### Other
+For individual test cases within this category click [here](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/testCases/other/other.md)
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TCcategories/TCcategory8.png)
 
