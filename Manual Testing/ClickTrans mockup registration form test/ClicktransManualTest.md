@@ -56,7 +56,7 @@ After preparing all the test cases I started Test Runs.
 For individual Test Runs click [here](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/TestRuns/TestRuns.md)
 
 
-Based on the test results I prepared bug reports (total number of bugs = 17) and issues for further investigation. For that I used Jira Software. Here are all the bugs found:
+Based on the test results I prepared bug reports (total number of bugs = 17) and issues for further investigation (total number of issues = 2). For that I used Jira Software. Here are all the bugs found:
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/pngBugs/bug1.png)
 
