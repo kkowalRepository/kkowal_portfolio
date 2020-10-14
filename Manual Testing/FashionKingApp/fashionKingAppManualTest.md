@@ -1,6 +1,6 @@
 # fashion.kingapp.pl website test
 
-As a part of a recruitment process I was asked to perform a manual testing of a fiven website. The goal was to find and report as much bugs as possible in 8 hour period. The results got me na interview in the company's Gdańsk office.
+As a part of a recruitment process I was asked to perform a manual testing of a given website. The goal was to find and report as much bugs as possible in 8 hour period. The results got me na interview in the company's Gdańsk office.
 
 Link to the website: https://fashion.kingapp.pl
 
