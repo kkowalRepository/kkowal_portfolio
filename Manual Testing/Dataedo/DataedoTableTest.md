@@ -2,7 +2,9 @@
 
 As a part of a recruitment process I was asked to perform a manual testing of a given table. 
 TASK: Please tell us how would you test this form designed for adding and editing tables in a relational database.
-Link: https://dataedo.com/asset/img/add_table.png
+This is what the table looks like:
+
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/Dataedo/dataedoTable.png)
 
 Below you can find the description of how I would approach the test.
 
@@ -30,7 +32,4 @@ Below you can find the description of how I would approach the test.
 22. “Minimise” button - test if clicked, window is minimised and accessible for later
 23. “Maximise” button - test when clicked, window fills the entire screen, and what happens then with the form, does it adjust to the full screen size or not, is the form scaled up or not, check whether clicking the button again form returns to the previous size.
 24. “X” button - test when clicked window closes, are the changes in the form saved to the system or not, is there an alert message displayed saying f.e: “do you want to save changes?”
-
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/Dataedo/dataedoTable.png)
 
