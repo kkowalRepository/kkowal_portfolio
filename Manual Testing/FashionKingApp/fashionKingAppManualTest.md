@@ -8,6 +8,7 @@ I managed to find 80 bugs and below you can find all the Jira screenshots.
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue2.png)
 
+----------------------------------------------------------------------------
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue4.png)
 
