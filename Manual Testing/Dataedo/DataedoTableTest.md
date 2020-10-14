@@ -1,328 +1,38 @@
-# fashion.kingapp.pl website test
+# Dataedo table test
 
-As a part of a recruitment process I was asked to perform a manual testing of a fiven website. The goal was to find and report as much bugs as possible in 8 hour period. The results got me na interview in the company's Gdańsk office.
+As a part of a recruitment process I was asked to perform a manual testing of a given table. 
+TASK: Please tell us how would you test this form designed for adding and editing tables in a relational database.
+Link: https://dataedo.com/asset/img/add_table.png
 
-Link to the website: https://fashion.kingapp.pl
+Below you can find the description of how I would approach the test.
 
-During given time I managed to find 80 bugs and below you can find Jira screenshots of those reports.
+1. Test whether all descriptions are correct(the same language, spelling faults) and in the right place.
+2. Test whether all descriptions are readable/understandable to the user and do not overlap each other.
+3. “Add” button, what does it do, does it add new table or new cell, row, column
+4. “Remove”- likewise, does it remove the whole table or cell, column or row
+5. “Move up” button, does it move selected cell up or entire row, what does it move up when no cell/row is selected (or multiple rows/cells).
+6.“Move down” button,  does it move selected cell down or entire row, what does it move down when no cell/row is selected (or multiple rows/cells).
+7. “Move to top” & “Move to bottom” likewise as 4. and 5.
+8. “Schema” field - I would test it for minimum and maximum number of characters, numeric characters, special characters, space, leave empty and check weather system accepts empty field.
+9. “Name” field - I would test it for minimum and maximum number of characters, test if system accepts numeric characters, special characters, space, leave empty and check weather system accepts empty field.
+10. “Name” cell - test if clicked, system performs A-Z sorting or not and see whether all other corresponding cells in corresponding rows are also sorted.
+11. “Data type” cell - test if clicked, system performs some kind of sorting ( A-Z or whether it sorts values by type, f.e.: ‘date’ values, ‘int’ values then ‘varchar’ values )or not and see whether all other corresponding cells in corresponding rows are also sorted.
+12. “Size” cell - test if clicked, system performs sorting ( from small number to big, big to small ) or not and see whether all other corresponding cells in corresponding rows are also sorted.
+13. “Name” column - is the name (‘column1’ provided by the system or user can provide its own name, if so I would test it for minimum and maximum number of characters, numeric characters, special characters, space, leave empty and check weather system accepts empty field.
+14. “Data type” column - are all the cells provided by the dropdown list by the system, can user input own datatype names if so I would test it for minimum and maximum number of characters, numeric characters, special characters, space, leave empty and check weather system accepts empty field.
+15. “Size” column - testing for input values with corresponding data types, f.e.: if column1 has values “int” (integers) I would check for f.e: ’double’, ‘varchar’, ‘string’, ‘boolean’, ‘array’ values and check whether system accepts them or if there’s any alert message provided by the system in case of an error. For instance for integers I would perform a boundary value analysis, also I guess the field should accept positive integers ( more than 0) so I would test for integers smaller than 0. Then, just to be sure I would test this field for minimum and maximum number of characters, special characters, space, leave empty and check weather system accepts empty field. Respectively I would test other data types. 
+16. “Nullable” tick field - test when clicked, “tick” appears and how does the system responds, does it also for some of the cell stay empty or not.
+17. “Description” column - testing what characters system accepts in this column. So: minimum and maximum number of characters, numeric characters, special characters, space, leave empty. For “date” or “datetime” I would check what kind of format system accepts, f.e: DD-MM-YYYY, MM-DD-YYYY, check whether the system provides a date picker to make it comfortable for the user to pick the right date/date&time or not 
+18. “Save” button - when clicked I would check whether a created table was saved to the system
+19. “Cancel” button - when clicked I would check whether a created table was not created/saved to the system
+20. Testing whether it’s possible do create another table with the same “schema” and “name” values.
+21. Error messages - test when entered incorrect values system displays alert
+22. “Minimise” button - test if clicked, window is minimised and accessible for later
+23. “Maximise” button - test when clicked, window fills the entire screen, and what happens then with the form, does it adjust to the full screen size or not, is the form scaled up or not, check whether clicking the button again form returns to the previous size.
+24. “X” button - test when clicked window closes, are the changes in the form saved to the system or not, is there an alert message displayed saying f.e: “do you want to save changes?”
 
 
 ![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue2.png)
 
 ----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue4.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue5.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue6.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue7.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue8.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue9.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue10.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue11.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue12.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue13.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue14.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue15.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue16.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue17.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue18.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue19.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue20.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue21.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue22.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue23.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue24.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue25.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue26.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue27.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue28.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue29.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue30.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue31.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue32.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue33.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue34.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue35.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue36.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue37.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue38.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue39.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue40.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue41.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue42.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue43.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue44.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue45.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue46.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue47.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue48.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue49.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue50.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue51.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue52.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue53.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue54.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue55.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue56.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue57.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue58.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue59.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue60.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue61.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue62.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue63.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue64.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue65.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue66.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue67.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue68.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue69.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue70.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue71.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue72.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue73.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue74.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue75.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue76.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue77.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue78.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue79.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue80.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue1.png)
-
-----------------------------------------------------------------------------
-
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue3.png)
-
 
