@@ -5,7 +5,7 @@
   #### Software testing
  - Manual testing
    - [Dataedo table test](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/Dataedo/DataedoTableTest.md)
-   - [fashion.kingapp.pl Website](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/fashionKingAppManualTest.md)
+   - [Fashion.kingapp.pl Website](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/fashionKingAppManualTest.md)
    - [ClickTrans Registration Form](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/ClickTrans%20mockup%20registration%20form%20test/ClicktransManualTest.md)
    - [Automation Practice website](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/AutomationPractice/AutoPractice.md)
    - [Mr Buggy 3](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/MrBuggy3/MrBuggy3.md)
