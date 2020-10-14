@@ -1,0 +1,37 @@
+# fashion.kingapp.pl website test
+
+The goal for this task was to provide manual testing of the website and find and report as much bugs as possible in 8 hour period.
+Link to the website: (fashion.kingapp.pl)
+
+I managed to find 80 bugs and below you can find all the Jira screenshots.
+
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue1.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue2.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue3.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue4.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue5.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue6.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue7.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue8.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue9.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue10.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue11.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue12.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue13.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue14.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue15.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue16.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue17.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue18.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue19.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue20.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue21.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue22.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue23.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue24.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue25.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue26.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue27.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue28.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue29.png)
+![](/Users/konradkowal/Documents/GitHub/kkowal_portfolio/Manual Testing/FashionKingApp/KingAppBugs/issue30.png)
