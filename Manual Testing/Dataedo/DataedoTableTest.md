@@ -32,7 +32,5 @@ Below you can find the description of how I would approach the test.
 24. “X” button - test when clicked window closes, are the changes in the form saved to the system or not, is there an alert message displayed saying f.e: “do you want to save changes?”
 
 
-![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/FashionKingApp/KingAppBugs/issue2.png)
-
-----------------------------------------------------------------------------
+![](https://github.com/kkowalRepository/kkowal_portfolio/blob/master/Manual%20Testing/Dataedo/dataedoTable.png)
 
