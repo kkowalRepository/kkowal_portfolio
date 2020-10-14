@@ -1,6 +1,6 @@
 # kkowal_portfolio
 <!--## sub heading-->
- This is my personal portfolio. It consists of coding and testing examples. Coding includes simple exercises done in Swift, using Xcode and Java, using IntelliJ IDEA. Testing includes both manual and automation  examples of the projects I did during my SDA "Software tester" course in 2020.
+ This is my personal portfolio. It consists of coding and testing examples. Coding includes simple exercises done in Swift, using Xcode and Java, using IntelliJ IDEA. Testing includes both manual and automation examples.
  
   #### Software testing
  - Manual testing
